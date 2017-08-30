@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Portal de Notícias | <%= noticia[0].titulo %></title>
 </head>
 <body>
     <h1>Portal de Notícias</h1>
-    <% for(var i = 0; i < noticia.length; i++) { %>
-        <h1> <%= noticia[i].titulo %> </h1>
-        <li> <%= noticia[i].noticia %> </li>
-        <% } %>
+        <h1> <%= noticia[0].titulo %> </h1>
+        <li> <%= noticia[0].noticia %> </li>
 </body>
 </html>
